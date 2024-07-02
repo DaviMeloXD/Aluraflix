@@ -1,0 +1,40 @@
+.card {
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    min-width: 300px;
+    background-color: black;
+
+
+
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card iframe {
+    /* width: 100%; */
+    /* height: 300px; */
+    border: none;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+.cardFrontEnd {
+    border: 2px solid var(--front-end); 
+}
+
+.cardBackEnd {
+    border: 2px solid var(--back-end); 
+}
+
+.cardMobile {
+    border: 2px solid var(--mobile); 
+}

@@ -1,0 +1,33 @@
+.cardsDiv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 10px;
+    scrollbar-width: none; 
+    scrollbar-color: var(--front-end) var(--back-end); 
+}
+
+
+
+.cardsSectionFrontEnd h1,
+.cardsSectionBackEnd h1,
+.cardsSectionMobile h1 {
+    width: 190px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--branco);
+}
+
+.cardsSectionFrontEnd h1 {
+    background-color: var(--front-end);
+}
+
+.cardsSectionBackEnd h1 {
+    background-color: var(--back-end);
+}
+
+.cardsSectionMobile h1 {
+    background-color: var(--mobile);
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Source Sans Pro Black';
+    src: url('fonts/source-sans-pro.black.ttf') format('truetype');
+    font-weight: 900; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+}
+
+.cabecalhoLink {
+    font-family: 'Source Sans Pro Black', sans-serif;
+    list-style: none;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
